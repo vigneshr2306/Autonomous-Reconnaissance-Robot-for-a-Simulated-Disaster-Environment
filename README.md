@@ -1,6 +1,5 @@
-# Project_Donatello
-# Members: Vignesh Ravikumar, Skanda Akkihebbal Prasanna, Pavan Rathnakar Shetty, Santhosh Sankar, Aadhar Bansal
-# Setup:
+
+## Setup:
 In your remote PC, do the following:
 1.  Clone the repository into the ```catkin_ws/src```. This includes the necessary packages such as ```turtlebot3 navigation```, ```turtlebot3_slam```, ```apriltag_ros```, ```explore_lite```.
 2. Go to ```catkin_ws``` and ```catkin_make```.
@@ -13,7 +12,7 @@ In your Turtlebot3, do the following:
 4. Calibrate the camera by following the instructions from the same website.
 5. Source the ```catkin_ws``` using ```source devel/setup.bash```
 
-# Execution:
+## Execution:
 Run ```roscore``` in your PC. Make sure to setup the ~/.bashrc file with the right IP address of the PC and TurtleBot3 and ```ROS_MASTER_URI``` and ```ROS_HOSTNAME``` as per the instructions from ```https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup```
 In the Turtlebot3, do the following:
 1. To bringup the turtlebot, run ```roslaunch turtlebot3_bringup turtlebot3_robot.launch```
