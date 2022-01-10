@@ -1,4 +1,5 @@
 
+Check my website out for more details: https://vigneshr2306.wordpress.com/autonomous-reconnaissance-robot-for-a-simulated-disaster-environment/ </br>
 ## Setup:
 In your remote PC, do the following:
 1.  Clone the repository into the ```catkin_ws/src```. This includes the necessary packages such as ```turtlebot3 navigation```, ```turtlebot3_slam```, ```apriltag_ros```, ```explore_lite```.
